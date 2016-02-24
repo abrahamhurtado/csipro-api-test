@@ -4,7 +4,7 @@
   "description": "Proof of concept API for a proof of concept CSIPRO official app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Abraham Hurtado <arhc.hc@gmail.com>",
   "license": "MIT",
