@@ -5,7 +5,7 @@ var dataEventosIndividuales = require('../api/hardcodedEventData');
 var router = express.Router();
 
 router.get('/eventos', (req, res) => {
-  res.status(200).json(data);
+  res.status(200).json(dataEventos);
 });
 
 router.get('/eventos/:id', (req, res) => {
